@@ -56,7 +56,7 @@ nav {
   overflow: hidden;
   background-image: url(../assets/images/nav-bg.png);
   font-family: 'gilroy', sans-serif;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 nav::after {
