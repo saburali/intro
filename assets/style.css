@@ -382,6 +382,27 @@ nav input {
   display: none;
 }
 
+/* Hero Section Start */
+.hero {
+  height: 100vh;
+  background-image: url(../assets/images/hero-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  height: 200px;
+  width: 200px;
+}
+/* Hero Section End */
+
 /* Footer Start */
 .footer_section {
   margin-top: 100vh;
