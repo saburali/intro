@@ -64,9 +64,10 @@
       <div class="container">
         <div class="images">
           <img src="./assets/images/top-right.png" alt="shape" class="top-right img-fluid">
-          <div class="img-container">
-            <img class="img-fluid" src="./assets/images/phone_mockup.png" alt="MObile Phone Mockup">
-          </div>
+          <!-- Only Visible Min Width 768px (Desktop View) -->
+          <img class="img-fluid d-none d-sm-block" src="./assets/images/phone_mockup.png" alt="MObile Phone Mockup">
+          <!-- Only Visible Max Width 767px (Mobile View) -->
+          <img class="img-fluid d-block d-sm-none" src="./assets/images/phone_mockup_mobile.png" alt="MObile Phone Mockup">
           <img src="./assets/images/bottom-left.png" alt="shape" class="bottom-left img-fluid">
         </div>
       </div>
