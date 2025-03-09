@@ -403,6 +403,37 @@ nav input {
 }
 /* Hero Section End */
 
+/* Mobile Mockup Start */
+.mobile-mockup {
+  position: relative;
+  margin: 100px 0;
+}
+
+.mobile-mockup .img-container {
+  overflow-x: hidden;
+}
+
+.mobile-mockup .img-container {
+  overflow-x: hidden;
+}
+
+.mobile-mockup .images {
+  position: relative;
+}
+
+.mobile-mockup .top-right {
+  position: absolute;
+  top: -90px;
+  right: 0;
+}
+
+.mobile-mockup .bottom-left {
+  position: absolute;
+  bottom: -90px;
+  left: 0;
+}
+/* Mobile Mockup End */
+
 /* Footer Start */
 .footer_section {
   margin-top: 100vh;
