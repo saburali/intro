@@ -403,6 +403,39 @@ nav input {
 }
 /* Hero Section End */
 
+/* Brands Start */
+.brands .text-bg {
+  position: relative;
+  background-position: center;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 7px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('./images/brands/title-bg.png');
+}
+
+.brands .text-bg {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+@media (max-width: 767px) {
+  .brands .text-bg h2 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 575px) {
+  .brands .text-bg h2 {
+    font-size: 14px;
+    font-weight: 700;
+  }
+}
+/* Brands End */
+
 /* Mobile Mockup Start */
 .mobile-mockup {
   position: relative;
@@ -431,6 +464,16 @@ nav input {
   position: absolute;
   bottom: -90px;
   left: 0;
+}
+
+@media (max-width: 575px) {
+  .mobile-mockup {
+    margin: 100px 0 35px 0;
+  }
+
+  .mobile-mockup .bottom-left {
+    display: none;
+  }
 }
 /* Mobile Mockup End */
 
