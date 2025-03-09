@@ -50,7 +50,7 @@ body {
 
 /* Navbar */
 nav {
-  top: 20px;
+  top: 0;
   position: fixed;
   z-index: 99;
   width: 100%;
