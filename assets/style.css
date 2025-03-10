@@ -771,6 +771,77 @@ nav input {
 }
 /* Our Product Category End */
 
+/* Setup Process Start */
+.setup-process {
+  padding: 300px 0;
+}
+
+.setup-process h2 {
+  font-size: 65px;
+  font-weight: 400;
+}
+
+.setup-process p {
+  font-size: 24px;
+}
+
+.setup-process .step {
+  color: #ffffff;
+  background-color: #FC4D0D;
+}
+
+.setup-process .box-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+}
+
+.setup-process .box-items a {
+  width: 100px;
+}
+
+.setup-process .box-items a .box {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  /* margin-right: 25px; */
+  border: 1px solid #BFBFBF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgb(204 219 232 / 30%) 3px 3px 6px 0px inset, rgb(255 255 255 / 30%) -4px -4px 6px 0px inset;
+  background-color: #ffffff30;
+}
+
+.setup-process .box-items .active .box {
+  background-color: #FC4D0D;
+}
+
+.setup-process .box-items span {
+  white-space: nowrap;
+}
+
+.setup-process .box-items .active span {
+  color: #FC4D0D !important
+}
+
+.setup-process .box-items a:last-child .box {
+  margin-right: 0;
+}
+
+.setup-process .top-right {
+  position: absolute;
+  right: 0;
+  transform: scale(1.5);
+}
+
+.setup-process .bottom-left {
+  position: absolute;
+  left: 0;
+  transform: scale(1.5);
+}
+/* Setup Process End */
+
 /* Footer Start */
 .footer_section {
   margin-top: 100vh;
