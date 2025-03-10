@@ -45,6 +45,7 @@
 }
 
 body {
+  overflow-x: hidden;
   background-color: #0f110e;
 }
 
@@ -543,6 +544,63 @@ nav input {
   left: 0;
 }
 
+@media (max-width: 767px) {
+  .black-material h2 {
+    font-size: 58px;
+    line-height: 62px;
+  }
+
+  .black-material h3 {
+    font-size: 42px;
+    line-height: 48px;
+  }
+
+  .black-material .text {
+    font-size: 18px;
+  }
+
+  .black-material .shadow-img.two {
+    left: -22%;
+  }
+
+  .black-material .shadow-img.one {
+    left: 30%;
+  }
+
+  .black-material .top-right {
+    top: -90px;
+  }
+}
+
+@media (max-width: 575px) {
+  .black-material h2 {
+      font-size: 42px;
+      line-height: 42px;
+  }
+
+  .black-material h3 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .black-material .shadow-img.one {
+    left: 30%;
+    display: none;
+  }
+
+  .black-material .text {
+    font-size: 14px;
+  }
+
+  .black-material .shadow-img.two {
+    left: -15%;
+    top: -50px;
+  }
+
+  .black-material .text .p-shadow {
+    height: 30px;
+  }
+}
 /* Black Material End */
 
 /* White Material Start */
@@ -571,6 +629,28 @@ nav input {
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+@media (max-width: 767px) {
+  .white-material h3 {
+    font-size: 58px;
+  }
+
+  .white-material .top-right {
+    top: -55px;
+  }
+}
+
+@media (max-width: 575px) {
+  .white-material h3 {
+    font-size: 38px;
+    line-height: 28px;
+    padding-top: 15px;
+  }
+
+  .white-material p {
+    margin-bottom: 5px;
+  }
 }
 /* White Material End */
 
