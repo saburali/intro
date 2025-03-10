@@ -840,6 +840,13 @@ nav input {
   left: 0;
   transform: scale(1.5);
 }
+
+@media (max-width: 575px) {
+  .setup-process .box-items {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}
 /* Setup Process End */
 
 /* Footer Start */
