@@ -391,6 +391,9 @@ nav input {
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
+
+  display: flex;
+  align-items: center;
 }
 
 .hero::after {
@@ -401,6 +404,75 @@ nav input {
   background-color: #000;
   height: 200px;
   width: 200px;
+}
+
+.hero h1 {
+  font-size: 72px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.hero h1 span {
+  color: #FC4C0D;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.hero .btns a:first-child {
+  width: 220px;
+  height: 50px;
+  border-radius: 35px 35px 99px 35px;
+  opacity: 1;
+
+  background: rgba(255, 255, 255, 0.22);
+
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.2118);
+
+  backdrop-filter: blur(10px);
+  box-shadow: inset 0px 0px 15px 0px rgba(255, 255, 255, 0.3608);
+
+font-size: 15px;
+font-weight: 300;
+line-height: 42px;
+letter-spacing: 0.1197em;
+
+color: #FFFFFF;
+text-align: center;
+text-decoration: none;
+
+
+-webkit-text-stroke: #FFFFFF 1px; /* Not supported by the browser. */
+}
+
+.hero .btns a:last-child {
+  width: 220px;
+  height: 50px;
+  border-radius: 99px 35px 35px 35px;
+  opacity: 1;
+  
+  background: rgba(255, 255, 255, 0.22);
+  
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.2118);
+  
+  backdrop-filter: blur(10px);
+  box-shadow: inset 0px 0px 15px 0px rgba(255, 255, 255, 0.3608);
+
+font-size: 15px;
+font-weight: 300;
+line-height: 42px;
+letter-spacing: 0.1197em;
+text-align: center;
+
+color: #FFFFFF;
+text-decoration: none;
+
+
+-webkit-text-stroke: #FFFFFF 1px; /* Not supported by the browser. */
 }
 /* Hero Section End */
 
