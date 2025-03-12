@@ -897,6 +897,157 @@ nav input {
 }
 /* Saving Section - End */
 
+/* Share Section - Start */
+.share {
+  padding-bottom: 200px;
+}
+
+.share .share-content {
+  padding-top: 200px;
+}
+
+.share .top-right {
+  top: 0;
+  right: 0;
+}
+
+.share .bottom-left {
+  bottom: 0;
+  left: 0;
+}
+
+.share .share-container {
+  /* min-height: 200px; */
+}
+
+.share .share-shape-bg {
+  height: 200px;
+  width: auto;
+  top: -10px;
+  right: -42%;
+  z-index: -1;
+}
+
+.share .share-card-img {
+  opacity: 0.8;
+}
+
+.share .share-bg {
+  background-image: url(./assets/images/share-shape.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.share h4 {
+  position: absolute;
+  color: #ffffff;
+  font-size: 22px;
+  margin: 0;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+.share .shape-2 .content {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 135px;
+  width: 100%;
+  text-align: center;
+  /* display: flex; */
+  padding-top: 30px;
+}
+
+.share .shape-2 .content h4 {
+  position: static;
+  transform: translateX(0);
+}
+
+.share .shape-2 a {
+  font-size: 22px;
+  font-weight: 500;
+  color: #000000;
+  position: relative;
+  top: -4px;
+  width: 100%;
+  border-radius: 40px;
+}
+
+.share .shape-2 .btn-bg {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('./images/share-btn-bg.png');
+  opacity: 0.3;
+  z-index: -1;
+  position: absolute;
+  width: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 10px;
+}
+
+.share .top-content {
+  position: absolute;
+  z-index: 9;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 83px;
+  text-align: center;
+}
+
+.share .top-content p {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.share .top-content .input-form {
+  border: 2px solid #707070;
+  background-color: transparent;
+  padding: 10px 21px 10px 48px;
+  border-radius: 30px;
+  color: #ffffff;
+  width: 95%;
+  font-size: 14px;
+}
+
+.share .top-content .input-form:focus {
+  outline: none;
+}
+
+.share .top-content .search-icon {
+  width: 25px;
+  left: 22px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.share .sec-title-bg {
+  background-image: url(./images/share-title-bg.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.share .sec-title-bg h2 {
+  font-size: 22px;
+  color: #ffffff;
+  margin-bottom: 0;
+  padding: 12px 30px;
+
+}
+/* Share Section - End */
+
 /* Footer Start */
 .footer_section {
   margin-top: 100vh;
