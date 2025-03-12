@@ -912,7 +912,7 @@ nav input {
 }
 
 .share .bottom-left {
-  bottom: 0;
+  bottom: -125px;
   left: 0;
 }
 
@@ -1047,6 +1047,30 @@ nav input {
 
 }
 /* Share Section - End */
+
+/* Intro Compatible Section - Start */
+.intro-compatible {
+  padding: 200px 0;
+}
+
+.intro-compatible h2 {
+  font-size: 38px;
+}
+
+.intro-compatible p {
+  font-size: 18px;
+}
+
+.intro-compatible .top-right {
+  top: -135px;
+  right: 0;
+}
+
+.intro-compatible .bottom-left {
+  bottom: -135px;
+  left: 0;
+}
+/* Intro Compatible Section - End */
 
 /* Footer Start */
 .footer_section {
